@@ -10,6 +10,7 @@ header {
 header img {
   margin-left: 50%;
   transform: translateX(-50%);
+  display; center-align 
 }
 
 h1 {
