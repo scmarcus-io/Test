@@ -51,6 +51,63 @@ tr > td {
 }
 
 img {
-  height: auto;
-  max-width: 100%;
+  height: 50%;
+  max-width: auto;
 }
+
+.container {
+  text-align: justify;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.container > div {
+  display: inline-block;
+  vertical-align: top;  
+}
+
+.centered-over-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8vh;
+}
+
+.container-box {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  display: inline-block;
+  font-size: 6.5vh;
+  color: navy;
+  font-weight: italic;
+}
+
+.tile img {
+  height: 60vh;
+  width: auto; 
+  border-radius: 15%;
+  padding: 2.5vh;
+}
+
+.tile > .interactive-tile img {
+  opacity: .9;
+  transition-timing-function: ease-in-out;
+  transition: 300ms;
+}
+
+.tile > .interactive-tile img:hover { 
+  opacity: 1;
+}
+
