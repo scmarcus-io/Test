@@ -1,5 +1,3 @@
-JS
-
 
 /**
  * Generate a flexbox for every set of tiles
