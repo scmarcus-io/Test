@@ -1,4 +1,6 @@
 /* CSS files add styling rules to your content */
+
+
 body {
   background: #fff0f8;
   font-family: Arial, Helvetica, sans-serif;
@@ -111,4 +113,3 @@ img {
 .tile > .interactive-tile img:hover { 
   opacity: 1;
 }
-
