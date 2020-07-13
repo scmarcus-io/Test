@@ -34,6 +34,13 @@ h2 {
   margin-inline-end: 0px;
 }
 
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85vw;
+  padding: 1vh;
+}
+
 #header > h1 > p {
   font-size: 8vh; 
   color: navy;
@@ -56,6 +63,30 @@ tr > td {
 img {
   height: 50%;
   max-width: auto;
+
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.travel {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body > img {
+  height: 50%;
+  width: 50%;
+  align-items: center;
 }
 
 .container {
@@ -68,7 +99,7 @@ img {
 
 .container > div {
   display: inline-block;
-  vertical-align: top;  
+  vertical-align: top;
 }
 
 .centered-over-img {
@@ -112,4 +143,9 @@ img {
 
 .tile > .interactive-tile img:hover { 
   opacity: 1;
+}
+
+.content > .splash-content {
+  width: 67.5vw;
+  margin: auto;
 }
