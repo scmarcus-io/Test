@@ -20,17 +20,17 @@ h1 {
   font-size: 10vh;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
-  margin-inline-start: 10vw;
+  margin-inline-start: 5vw;
   margin-inline-end: 0px;
   font-weight: bold;
   color: #fa7c91;
 }
 h2 {
   font-style: italic;
-  color: #fa7c91;
+  color: #82979e;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
-  margin-inline-start: 10vw;
+  margin-inline-start: 0vw;
   margin-inline-end: 0px;
 }
 
